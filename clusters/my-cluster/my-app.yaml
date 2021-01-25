@@ -7,7 +7,7 @@ metadata:
   name: my-app
 spec:
   containers:
-  - image: busybox
+  - image: nginx
     name: my-app
     resources: {}
   dnsPolicy: ClusterFirst
